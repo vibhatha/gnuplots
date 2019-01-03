@@ -1,0 +1,18 @@
+set datafile separator ","
+set autoscale x
+set autoscale y
+set key font 'Helvetica, 16'
+set xtics font "Helvetica, 18"
+set ytics font "Helvetica, 18"
+set xlabel 'Epochs' font 'Helvetica,20'
+set ylabel 'Objective Function Value' font 'Helvetica,20'
+set title 'Objective Function Miminization vs Parallelism: Ijcnn1 Dataset'
+set key title 'Parallel Configuration'
+plot 'ijcnn_m=2_c=1_i=1501' using 3 title '2x 1c' with lines, 'ijcnn_m=4_c=1_i=1501' using 3 title '4x 1c' with lines, 'ijcnn_m=8_c=1_i=1501' using 3 title '8x 1c' with lines, 'ijcnn_m=16_c=1_i=1501' using 3 title '16x 1c' with lines, 'ijcnn_m=32_c=1_i=1501' using 3 title '32x 1c' with lines
+
+
+
+
+
+
+

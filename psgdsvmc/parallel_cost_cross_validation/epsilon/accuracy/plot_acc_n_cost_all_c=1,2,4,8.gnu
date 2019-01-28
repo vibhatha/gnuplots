@@ -4,7 +4,7 @@ set autoscale x
 set autoscale y
 set key font 'Helvetica, 16'
 set xtics font "Helvetica, 18"
-set ytics font "Helvetica, 18"
+set ytics font "Helvetica, 12"
 set xlabel 'Epochs' font 'Helvetica,20'
 set ylabel 'Objective Function Value' font 'Helvetica,20'
 set title 'Variation of Objective Function Value with Communication Frequency: Epsilon Dataset'
@@ -25,7 +25,7 @@ set autoscale x
 set autoscale y
 set key font 'Helvetica, 16'
 set xtics font "Helvetica, 18"
-set ytics font "Helvetica, 18"
+set ytics font "Helvetica, 12"
 set xlabel 'Epochs' font 'Helvetica,20'
 set ylabel 'Objective Function Value' font 'Helvetica,20'
 set title 'Variation of Objective Function Value with Communication Frequency: Epsilon Dataset'
@@ -46,7 +46,7 @@ set autoscale x
 set autoscale y
 set key font 'Helvetica, 16'
 set xtics font "Helvetica, 18"
-set ytics font "Helvetica, 18"
+set ytics font "Helvetica, 12"
 set xlabel 'Epochs' font 'Helvetica,20'
 set ylabel 'Objective Function Value' font 'Helvetica,20'
 set title 'Variation of Objective Function Value with Communication Frequency: Epsilon Dataset'
@@ -67,7 +67,7 @@ set autoscale x
 set autoscale y
 set key font 'Helvetica, 16'
 set xtics font "Helvetica, 18"
-set ytics font "Helvetica, 18"
+set ytics font "Helvetica, 12"
 set xlabel 'Epochs' font 'Helvetica,20'
 set ylabel 'Objective Function Value' font 'Helvetica,20'
 set title 'Variation of Objective Function Value with Communication Frequency: Epsilon Dataset'
@@ -88,7 +88,7 @@ set autoscale x
 set autoscale y
 set key font 'Helvetica, 16'
 set xtics font "Helvetica, 18"
-set ytics font "Helvetica, 18"
+set ytics font "Helvetica, 12"
 set xlabel 'Epochs' font 'Helvetica,20'
 set ylabel 'Objective Function Value' font 'Helvetica,20'
 set title 'Variation of Objective Function Value with Communication Frequency: Epsilon Dataset'

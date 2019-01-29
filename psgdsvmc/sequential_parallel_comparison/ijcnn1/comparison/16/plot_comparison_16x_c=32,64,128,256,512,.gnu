@@ -1,4 +1,4 @@
-set multiplot layout 5,1 rowsfirst
+set multiplot layout 4,1 rowsfirst
 set datafile separator "," 
 set autoscale x
 set autoscale y
@@ -23,6 +23,3 @@ set key right bottom title 'Configuration' font 'Helvetica,10'
 set font 'Helvetica,8'
 plot 'ijcnn_m=16_c=256_i=5001_mv=10' using 2 title'16x 256c 5001i' with lines, 'ijcnn1_comm_gap=4096.csv_mv=10' using 2 title 'Sequential 4096c 5001i' with lines 
 set title 'Variation of Cross-Validation Accuracy with Communication Frequency: Ijcnn1 Dataset: Parallel Model Synchronizing Frequency=512' font 'Helvetica,18'
-set key right bottom title 'Configuration' font 'Helvetica,10' 
-set font 'Helvetica,8'
-plot 'ijcnn_m=16_c=512_i=5001_mv=10' using 2 title'16x 512c 5001i' with lines, 'ijcnn1_comm_gap=8192.csv_mv=10' using 2 title 'Sequential 8192c 5001i' with lines 

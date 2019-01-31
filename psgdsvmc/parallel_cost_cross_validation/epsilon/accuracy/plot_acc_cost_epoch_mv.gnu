@@ -3,7 +3,7 @@ set autoscale x
 set autoscale y
 set key font 'Helvetica, 16'
 set xtics font "Helvetica, 18"
-set ytics font "Helvetica, 18"
+set ytics font "Helvetica, 12"
 set xlabel 'Epochs' font 'Helvetica,20'
 set ylabel 'Cross-Validation Accuracy' font 'Helvetica,20'
 set title 'Variation of Cross-Validation Accuracy with Communication Frequency: Epsilon Dataset'

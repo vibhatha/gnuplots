@@ -1,12 +1,15 @@
+unset multiplot
+clear
+clear
 set multiplot layout 5,1 rowsfirst
 set datafile separator ","
 set autoscale x
 set autoscale y
 set key font 'Helvetica, 16'
-set xtics font "Helvetica, 18"
-set ytics font "Helvetica, 18"
+set xtics font "Helvetica, 12"
+set ytics font "Helvetica, 12"
 set style data histograms
-set xtics ('1' 0, '2' 1 ,'4' 2, '8' 3, '512' 4, '1024' 5, '2048' 6, '4096' 7))
+set xtics ('1' 0, '2' 1 ,'4' 2, '8' 3, '512' 4, '1024' 5, '2048' 6, '4096' 7)
 set boxwidth 1 relative
 set style histogram rowstacked
 set style fill pattern border -1

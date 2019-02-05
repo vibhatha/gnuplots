@@ -1,3 +1,16 @@
+#!/usr/bin/gnuplot
+#
+# Demonstrates a simple usage of gnuplot.
+#
+# AUTHOR: VIBHATHA ABEYKOON
+
+reset
+
+# png
+set font 'Helvetica Bold'
+set terminal pngcairo size 1920,1080 enhanced color font 'Helvetica Bold,24'
+set output 'mva_cross_validation_acc_vs_epochs_msf_c=1,2,4,8_modified_lr.png' 
+
 set datafile separator ","
 set autoscale x
 set autoscale y

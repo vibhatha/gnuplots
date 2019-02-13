@@ -29,3 +29,6 @@ set title 'Training Time [Per Training Process]: m=2' font 'Helvetica Bold,24'
 plot 'comm_comp_totaltime_m=2_all.csv' u (column(1)+column(2)) t 'Training Time'
 set title 'Training Time [Per Training Process]: m=32'
 plot 'comm_comp_totaltime_m=32_all.csv' u (column(1)+column(2)) t 'Training Time'
+
+
+

@@ -18,7 +18,7 @@ set key font 'Helvetica Bold, 16'
 set xtics font "Helvetica Bold, 18"
 set ytics font "Helvetica Bold, 18"
 set style data histograms
-set xtics ('1' 1, '2' 2 ,'4' 3, '8' 4, '16' 5, '32' 6, '64' 7, '128' 8, '256' 9, '512' 10, '1024' 11, '2048' 12, '4096' 13)
+set xtics ('1' 0, '2' 1 ,'4' 2, '8' 3, '512' 4, '1024' 5, '2048' 6, '4096' 7)
 set boxwidth 1 relative
 set style histogram rowstacked
 set style fill pattern border -1

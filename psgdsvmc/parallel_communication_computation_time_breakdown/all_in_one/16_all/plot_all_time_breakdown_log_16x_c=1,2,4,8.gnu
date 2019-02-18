@@ -31,10 +31,10 @@ set ytics font "Helvetica , 12"
 #set style histogram rowstacked
 set style histogram rowstacked title textcolor lt -1
 set style fill pattern border -1
-set xtics ('1' 1, '2' 2 ,'4' 3, '8' 4, '16' 5, '32' 6, '64' 7, '128' 8, '256' 9, '512' 10) 
+set xtics ('1' 1, '2' 2 ,'4' 3, '8' 4) 
 set boxwidth 1 relative
 set xlabel 'Block Size' font 'Helvetica ,14'
-set ylabel 'Time (s)' font 'Helvetica ,14'
+set ylabel 'Time (s) Log' font 'Helvetica ,14'
 set key left top title 'Time Category'
 set title 'Training Time Variation against Block Size : Parallelism = 16'
 

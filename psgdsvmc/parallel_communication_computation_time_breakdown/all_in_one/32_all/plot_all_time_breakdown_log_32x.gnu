@@ -8,13 +8,13 @@ reset
 
 # png
 set terminal pngcairo size 1920,1080 enhanced color
-set output 'all_in_one_time_breakdown_log.png'
+set output 'all_in_one_time_breakdown_log_32x.png'
 
 
 set datafile separator ","
 set autoscale x
 set autoscale y
-set title font "Helvetica Bold, 22"
+set title font "Helvetica, 22"
 set boxwidth 1.0 absolute
 set style fill  solid 1.00 border lt -1
 #set key fixed right top vertical Right noreverse noenhanced autotitle nobox
@@ -24,18 +24,18 @@ set style histogram clustered gap 3 title textcolor lt -1
 set style data histograms
 #set xtics border in scale 0,0 nomirror rotate by -45  autojustify
 set xtics nomirror rotate by -45  autojustify
-set key font 'Helvetica Bold, 16'
-set xtics font "Helvetica Bold, 16"
-set ytics font "Helvetica Bold, 16"
+set key font 'Helvetica , 14'
+set xtics font "Helvetica , 12"
+set ytics font "Helvetica , 12"
 #set logscale y
 #set style histogram rowstacked
 set style histogram rowstacked title textcolor lt -1
 set style fill pattern border -1
 set xtics ('1' 1, '2' 2 ,'4' 3, '8' 4, '16' 5, '32' 6, '64' 7, '128' 8, '256' 9, '512' 10) 
 set boxwidth 1 relative
-set xlabel 'Block Size' font 'Helvetica Bold,18'
-set ylabel 'Time (s) Log' font 'Helvetica Bold,18'
-set key title 'Time Category'
+set xlabel 'Block Size' font 'Helvetica ,14'
+set ylabel 'Time (s) Log' font 'Helvetica ,14'
+set key left top title 'Time Category'
 set title 'Training Time Variation against Block Size : Parallelism = 32'
 
 #plot 'all.csv' using 6 title 'Epsilon-Comp', 'all.csv' using 7 title 'Epsilon-Comm'

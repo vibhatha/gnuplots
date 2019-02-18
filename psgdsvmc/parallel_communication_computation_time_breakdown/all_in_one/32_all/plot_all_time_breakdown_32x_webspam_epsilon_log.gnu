@@ -8,14 +8,14 @@ reset
 
 # png
 set terminal pngcairo size 1920,1080 enhanced color
-set output 'all_in_one_time_breakdown_log_webspam_epsilon.png'
+set output 'all_in_one_time_breakdown_log_webspam_epsilon_32x.png'
 
 
 set datafile separator ","
 set autoscale x
 set autoscale y
 set format y "%2.0t{/Symbol \264}10^{%L}"
-set title font "Helvetica Bold, 22"
+set title font "Helvetica, 22"
 set boxwidth 1.0 absolute
 set style fill  solid 1.00 border lt -1
 #set key fixed right top vertical Right noreverse noenhanced autotitle nobox
@@ -25,9 +25,9 @@ set style histogram clustered gap 3 title textcolor lt -1
 set style data histograms
 #set xtics border in scale 0,0 nomirror rotate by -45  autojustify
 set xtics nomirror rotate by -45  autojustify
-set key font 'Helvetica Bold, 16'
-set xtics font "Helvetica Bold, 12"
-set ytics font "Helvetica Bold, 12"
+set key font 'Helvetica, 14'
+set xtics font "Helvetica , 12"
+set ytics font "Helvetica , 12"
 #set logscale y
 #set style histogram rowstacked
 set style histogram rowstacked title textcolor lt -1

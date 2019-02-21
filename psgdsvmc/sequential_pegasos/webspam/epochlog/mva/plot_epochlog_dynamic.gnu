@@ -9,8 +9,8 @@ set xtics font "Helvetica Bold, 24"
 set ytics font "Helvetica Bold, 24"
 set xlabel 'Epochs' font 'Helvetica Bold,24'
 set ylabel 'Cross-Validation Accuracy' font 'Helvetica Bold,24'
-set key bottom right title 'Model Synchronizing Frequency' font 'Helvetica Bold,24'
+set key bottom right title 'Block Size' font 'Helvetica Bold,24'
 set key font "Helvetica Bold, 24"
 set title 'Cross-Validation Accuracy Variation against Epochs' font 'Helvetica Bold,30'
-plot 'webspam_c=1.csv_mv=10' using 1:2 title 'msf=1' with lines,'webspam_c=2.csv_mv=10' using 1:2 title 'msf=2' with lines, 'webspam_c=4.csv_mv=10' using 1:2 title 'msf=4' with lines, 'webspam_c=8.csv_mv=10' using 1:2 title 'msf=8' with lines, 'webspam_c=4096.csv_mv=10' using 1:2 title 'msf=4096' with lines
+plot 'webspam_c=1.csv_mv=10' using 1:2 title '1' with lines,'webspam_c=2.csv_mv=10' using 1:2 title '2' with lines, 'webspam_c=4.csv_mv=10' using 1:2 title '4' with lines, 'webspam_c=8.csv_mv=10' using 1:2 title '8' with lines, 'webspam_c=4096.csv_mv=10' using 1:2 title '4096' with lines
 

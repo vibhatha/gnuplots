@@ -17,7 +17,7 @@ set autoscale y
 set xtics ('1' 0, '2' 1 ,'4' 2, '8' 3, '16' 4, '32' 5, '64' 6, '128' 7, '256' 8,'512' 9, '1024' 10, '2048' 11, '4096' 12)
 set xtics font "Helvetica, 18"
 set ytics font "Helvetica, 18"
-set xlabel 'Epochs' font 'Helvetica,20'
+set xlabel 'Block Size' font 'Helvetica,20'
 set ylabel 'Testing Accuracy' font 'Helvetica,20'
 set key bottom right title 'Model Synchronizing Frequency' font 'Helvetica,18'
 set key top right font "Helvetica, 18"

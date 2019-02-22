@@ -8,7 +8,7 @@ reset
 
 # png
 set terminal pngcairo size 1920,1080 enhanced color font 'Helvetica Bold,24'
-set output 'acc_n_cost_epcoch_comp_epsilon_c=1,2,4,4096_x32.png'
+set output 'acc_n_cost_epcoch_comp_epsilon_c=1,2,4,8,4096_x32.png'
 
 set datafile separator ","
 set autoscale x

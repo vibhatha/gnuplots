@@ -8,7 +8,7 @@ reset
 
 # png
 set terminal pngcairo size 1920,1080 enhanced color
-set output 'all_in_one_log_32x.png'
+set output 'all_in_one_log_16x.png'
 
 
 set datafile separator ","
@@ -35,6 +35,6 @@ set boxwidth 1 relative
 set xlabel 'Block Size' font 'Helvetica Bold,28'
 set ylabel 'Training Time (s) Log' font 'Helvetica Bold,28'
 set key title 'Data Source' font 'Helvetica Bold , 20'
-set title 'Training Time Variation against Block Size : Parallelism = 32' font "Helvetica Bold, 30"
+set title 'Training Time Variation against Block Size : Parallelism = 16' font "Helvetica Bold, 30"
 #plot 'all.csv'  u (column(2)+column(3)) ti col, '' u (column(4)+column(5)) ti col, '' u (column(6)+column(7)) ti col
 plot 'all.csv'  u (column(2)+column(3)) title 'Ijcnn1', '' u (column(4)+column(5)) title 'Webspam' , '' u (column(6)+column(7)) title 'Epsilon'

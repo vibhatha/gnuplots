@@ -10,13 +10,12 @@ reset
 set terminal pngcairo size 640,640 enhanced color
 set output 'time_breakdown_2x_ijcnn1.png'
 
-
 set datafile separator ","
 set autoscale x
 set autoscale y
 set key font 'Helvetica Bold, 16'
-set xtics font "Helvetica Bold, 12"
-set ytics font "Helvetica Bold, 12"
+set xtics font "Helvetica Bold, 18" rotate by 45 right
+set ytics font "Helvetica Bold, 18"
 set style data histograms
 set style histogram rowstacked
 set style fill pattern border -1
@@ -36,8 +35,8 @@ set datafile separator ","
 set autoscale x
 set autoscale y
 set key font 'Helvetica Bold, 16'
-set xtics font "Helvetica Bold, 12"
-set ytics font "Helvetica Bold, 12"
+set xtics font "Helvetica Bold, 18" rotate by 45 right
+set ytics font "Helvetica Bold, 18"
 set style data histograms
 set style histogram rowstacked
 set style fill pattern border -1
@@ -57,8 +56,8 @@ set datafile separator ","
 set autoscale x
 set autoscale y
 set key font 'Helvetica Bold, 16'
-set xtics font "Helvetica Bold, 14"
-set ytics font "Helvetica Bold, 14"
+set xtics font "Helvetica Bold, 18" rotate by 45 right
+set ytics font "Helvetica Bold, 18"
 set style data histograms
 set style histogram rowstacked
 set style fill pattern border -1
@@ -77,8 +76,8 @@ set datafile separator ","
 set autoscale x
 set autoscale y
 set key font 'Helvetica Bold, 16'
-set xtics font "Helvetica Bold, 14"
-set ytics font "Helvetica Bold, 14"
+set xtics font "Helvetica Bold, 18" rotate by 45 right
+set ytics font "Helvetica Bold, 18"
 set style data histograms
 set style histogram rowstacked
 set style fill pattern border -1
@@ -97,8 +96,8 @@ set datafile separator ","
 set autoscale x
 set autoscale y
 set key font 'Helvetica Bold, 16'
-set xtics font "Helvetica Bold, 16"
-set ytics font "Helvetica Bold, 16"
+set xtics font "Helvetica Bold, 18" rotate by 45 right
+set ytics font "Helvetica Bold, 18"
 set style data histograms
 set style histogram rowstacked
 set style fill pattern border -1
